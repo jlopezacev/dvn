@@ -1,0 +1,15 @@
+
+const { remote } = require('webdriverio')
+const sync = require('@wdio/sync').default
+
+remote({
+    runner: 'local',
+    outputDir: __dirname,
+    capabilities: {
+        browserName: 'chrome'
+    }
+}).then((browser) => sync(() => {
+    browser.url('https://webdriver.io')
+    console.log(browser.getTitle())
+    browser.deleteSession()
+}))
