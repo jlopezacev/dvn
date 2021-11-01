@@ -1,25 +1,102 @@
 {
-  "name": "webdriverv5-cucumber",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "webdriverio@6.6.7",
+  "_id": "webdriverio@6.6.7",
+  "_inBundle": false,
+  "_integrity": "sha512-Vpp+J4jiQ9zAu3U448Ry2qitUKP95+/I/NM6wvssCN7NPutEZoAbW9+4LF9Df5KEV9EIbENpOO0511dM1vwcOQ==",
+  "_location": "/webdriverio",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "webdriverio@6.6.7",
+    "name": "webdriverio",
+    "escapedName": "webdriverio",
+    "rawSpec": "6.6.7",
+    "saveSpec": null,
+    "fetchSpec": "6.6.7"
   },
-  "author": "JL",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1",
-    "@babel/register": "^7.12.1",
-    "@wdio/cli": "^6.6.7",
-    "@wdio/cucumber-framework": "^6.6.6",
-    "@wdio/local-runner": "^6.6.7",
-    "@wdio/mocha-framework": "^6.6.7",
-    "@wdio/spec-reporter": "^6.6.8",
-    "@wdio/sync": "^6.6.7",
-    "chromedriver": "^86.0.0",
-    "wdio-chromedriver-service": "^6.0.4"
-  }
+  "_requiredBy": [
+    "/@wdio/cli"
+  ],
+  "_resolved": "https://registry.npmjs.org/webdriverio/-/webdriverio-6.6.7.tgz",
+  "_shasum": "8dd35f66e392c0bc532a4e4c7a54714271e62d0f",
+  "_spec": "webdriverio@6.6.7",
+  "_where": "C:\\Users\\hp\\Desktop\\4 Finance Test\\RED\\node_modules\\@wdio\\cli",
+  "author": {
+    "name": "Christian Bromann",
+    "email": "christian@saucelabs.com"
+  },
+  "bugs": {
+    "url": "https://github.com/webdriverio/webdriverio/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/puppeteer": "^3.0.1",
+    "@wdio/config": "6.6.3",
+    "@wdio/logger": "6.6.0",
+    "@wdio/repl": "6.6.3",
+    "@wdio/utils": "6.6.3",
+    "archiver": "^5.0.0",
+    "atob": "^2.1.2",
+    "css-value": "^0.0.1",
+    "devtools": "6.6.3",
+    "fs-extra": "^9.0.1",
+    "get-port": "^5.1.1",
+    "grapheme-splitter": "^1.0.2",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.isobject": "^3.0.2",
+    "lodash.isplainobject": "^4.0.6",
+    "lodash.zip": "^4.2.0",
+    "minimatch": "^3.0.4",
+    "puppeteer-core": "^5.1.0",
+    "resq": "^1.9.1",
+    "rgb2hex": "^0.2.0",
+    "serialize-error": "^7.0.0",
+    "webdriver": "6.6.3"
+  },
+  "deprecated": false,
+  "description": "Next-gen browser and mobile automation test framework for Node.js",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "gitHead": "3350a2526b788ca23a5a4d14b0bfe335ce94ea3e",
+  "homepage": "https://webdriver.io",
+  "keywords": [
+    "webdriverio",
+    "webdriver",
+    "selenium",
+    "appium",
+    "saucelabs",
+    "sauce",
+    "labs",
+    "mocha",
+    "nodeUnit",
+    "buster",
+    "devtools",
+    "puppeteer",
+    "vows",
+    "jasmine",
+    "assert",
+    "cucumber",
+    "testingbot"
+  ],
+  "license": "MIT",
+  "main": "./build/index.js",
+  "name": "webdriverio",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webdriverio/webdriverio.git"
+  },
+  "tags": [
+    "webdriver",
+    "selenium",
+    "test",
+    "automation",
+    "browser",
+    "javascript",
+    "node"
+  ],
+  "typeScriptVersion": "3.7.3",
+  "types": "./webdriverio.d.ts",
+  "version": "6.6.7"
 }
