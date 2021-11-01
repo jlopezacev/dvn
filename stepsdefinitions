@@ -1,0 +1,17 @@
+var {Then} = require ('cucumber');
+var {Given} = require ('cucumber');
+
+Given (/^I am in rs$/, function (){
+    browser.url('https://dnv.com/')
+});
+Given (/^Click on 'nosotros' $/, function (){
+    browser.click('https://dnv.com/about/')
+});
+
+Then (/^Get number of offices ){
+var divs = document.getElementsByClassName("col-xs-12 col-sm-6 col-md-3").length;
+console.log("Hay " + divs + " elementos");
+});
+
+
+
